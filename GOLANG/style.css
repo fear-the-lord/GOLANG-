@@ -1,0 +1,58 @@
+*{ 
+	margin: 0px;
+	padding: 0px;
+} /*for the default margin and paging properties*/
+.container {
+
+	background: silver;
+	width: 1200px;
+	margin: 0 auto;
+}
+
+header{
+
+	background: brown;
+	padding: 40px 20px;
+	color: white;
+}
+
+nav{
+
+	background: gray;
+	height: 60px; 
+	width: 100%;
+}
+
+nav ul li {
+
+	list-style: none; 
+	float: left;
+	padding: 20px;
+
+}
+
+aside{
+
+	float: left;
+	background: pink;
+	width: 600px;
+	height: 500px;
+	padding: 20px;
+}
+
+aside h2{
+
+	margin-bottom: 20px;
+}
+
+aside ul li{
+
+	list-style: none;
+	padding: 10px;
+	font-size: 20px;
+}
+
+section{
+
+	float: left;
+}
